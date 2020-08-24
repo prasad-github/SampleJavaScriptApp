@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Javascript Application</title>
+</head>
+<body>
+    <div class="container-1">
+        <h2>Challange 1 : Calculate Factorial</h2>
+        <div class="flex-box-container-1">
+            <div>
+                <button class="btn btn-primary" onclick="factorial()">Click me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">reset</button>
+            </div>
+        </div>
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+    </div>
+
+    <div class="container-2">
+        <h2>Challange 2 : API calling</h2>
+        <button class="btn btn-success" id="api-generator" onclick="apiGenerator()">Generate</button>
+        <div class="flex-box-container-2" id="flex-api-gen"></div>
+    </div>
+
+    <div class="container-3">
+        <h2>Challange 3 : Pick the right one and compare with computer choice</h2>
+        <div class= "flex-box-container-3" id="flex-box-container-3-div"> 
+            <img id="paper" src="C:\Users\tgdpepr1\Downloads\js_picture_4.jpg"  height=180 width=120 alt="" onclick="flexboxSelector(this)">
+            <img id="books" src="C:\Users\tgdpepr1\Downloads\js_picture_2.jpg"  height=180 width=120 alt="" onclick="flexboxSelector(this)"">
+            <img id="wood" src="C:\Users\tgdpepr1\Downloads\js_picture_3.jpg"  height=180 width=120 alt="" onclick="flexboxSelector(this)"">
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
